@@ -1,0 +1,17 @@
+{
+  "server": {
+    "port": 3000,
+    "host": "localhost"
+  },
+  "database": {
+    "type": "sqlite",
+    "filename": "chatbot_database.sqlite"
+  },
+  "model": {
+    "path": "./models/chatGPT_model.bin"
+  },
+  "ui": {
+    "title": "ローカルChatGPT",
+    "welcomeMessage": "こんにちは！何でお手伝いしましょうか？"
+  }
+}

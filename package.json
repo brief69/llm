@@ -1,0 +1,29 @@
+{
+  "name": "local-chatgpt-like",
+  "version": "1.0.0",
+  "description": "A local running chatbot similar to ChatGPT",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/local-chatgpt-like.git"
+  },
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "socket.io": "^4.0.0",
+    "nedb": "^1.8.0",
+    "tensorflow": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/local-chatgpt-like/issues"
+  },
+  "homepage": "https://github.com/yourusername/local-chatgpt-like#readme"
+}

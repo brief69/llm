@@ -1,21 +1,21 @@
-<!DOCTYPE html>
-<html lang="ja">
+<!DOCTYPE html> <!-- HTML5文書を宣言します。Declare the document as HTML5. -->
+<html lang="ja"> <!-- 日本語の言語設定を指定します。Set the language of the document to Japanese. -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ローカルChatGPT</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8"> <!-- 文字エンコーディングをUTF-8として指定します。Specify the character encoding for the document as UTF-8. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- レスポンシブデザインのためのビューポート設定をします。Set the viewport for responsive web design. -->
+    <title>ローカルChatGPT</title> <!-- ウェブページのタイトルを設定します。Set the title of the web page. -->
+    <link rel="stylesheet" href="styles.css"> <!-- 外部CSSファイルをリンクします。Link to an external CSS file. -->
 </head>
 <body>
-    <div id="chat-container">
-        <div id="chat-box">
-            <ul id="chat-messages"></ul>
+    <div id="chat-container"> <!-- チャットインターフェースのコンテナを定義します。Define the container for the chat interface. -->
+        <div id="chat-box"> <!-- チャットメッセージを表示するボックスを定義します。Define the box to display chat messages. -->
+            <ul id="chat-messages"></ul> <!-- チャットメッセージのリストを表示します。Display the list of chat messages. -->
         </div>
-        <div id="user-input">
-            <input type="text" id="input-message" placeholder="ここにメッセージを入力してください...">
-            <button id="send-message">送信</button>
+        <div id="user-input"> <!-- ユーザー入力セクションを定義します。Define the user input section. -->
+            <input type="text" id="input-message" placeholder="ここにメッセージを入力してください..."> <!-- ユーザーがメッセージを入力するフィールドです。Field for the user to enter messages. -->
+            <button id="send-message">送信</button> <!-- メッセージを送信するボタンです。Button to send the message. -->
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="script.js"></script> <!-- 外部JavaScriptファイルをリンクします。Link to an external JavaScript file. -->
 </body>
 </html>

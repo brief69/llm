@@ -1,4 +1,5 @@
 /* Basic reset for styling */
+/* スタイリングのための基本的なリセット */
 * {
     margin: 0;
     padding: 0;
@@ -6,85 +7,86 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    padding: 10px;
+    font-family: 'Arial', sans-serif; /* Use Arial font */
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark grey text */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* No margin */
+    padding: 10px; /* Padding around the content */
 }
 
 #chat-container {
-    width: 100%;
-    max-width: 600px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
+    width: 100%; /* Full width */
+    max-width: 600px; /* But no more than 600px */
+    background: #fff; /* White background */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    overflow: hidden; /* Hide overflow */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
 }
 
 #chat-box {
-    padding: 20px;
-    overflow-y: auto;
-    height: 400px;
-    border-bottom: 1px solid #ddd;
+    padding: 20px; /* Padding inside the chat box */
+    overflow-y: auto; /* Scroll vertically if needed */
+    height: 400px; /* Fixed height */
+    border-bottom: 1px solid #ddd; /* Separator line */
 }
 
 #chat-messages {
-    list-style: none;
+    list-style: none; /* No bullet points */
 }
 
 #chat-messages li {
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 20px;
+    margin-bottom: 10px; /* Space between messages */
+    padding: 10px; /* Padding inside each message */
+    border-radius: 20px; /* Rounded corners for messages */
 }
 
 #user-input {
-    display: flex;
-    padding: 10px;
-    border-top: 1px solid #ddd;
+    display: flex; /* Use flexbox for layout */
+    padding: 10px; /* Padding inside the input area */
+    border-top: 1px solid #ddd; /* Separator line */
 }
 
 #input-message {
-    flex-grow: 1;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin-right: 10px;
+    flex-grow: 1; /* Take up available space */
+    padding: 10px; /* Padding inside the input field */
+    border: 1px solid #ddd; /* Border around the input field */
+    border-radius: 5px; /* Rounded corners for the input field */
+    margin-right: 10px; /* Space between input field and button */
 }
 
 #send-message {
-    padding: 10px 20px;
-    background-color: #5cb85c;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    padding: 10px 20px; /* Padding inside the button */
+    background-color: #5cb85c; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
 }
 
 #send-message:hover {
-    background-color: #4cae4c;
+    background-color: #4cae4c; /* Darker green on hover */
 }
 
 /* Scrollbar styles */
+/* スクロールバーのスタイル */
 #chat-box::-webkit-scrollbar {
-    width: 6px;
+    width: 6px; /* Narrow scrollbar */
 }
 
 #chat-box::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #f1f1f1; /* Light grey track */
 }
 
 #chat-box::-webkit-scrollbar-thumb {
-    background: #888;
+    background: #888; /* Dark grey thumb */
 }
 
 #chat-box::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: #555; /* Darker grey thumb on hover */
 }
